@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+  color: white;
+}
+.container {
+    position: relative;
+}
+img {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+img:hover{
+  opacity: 1;
+}
